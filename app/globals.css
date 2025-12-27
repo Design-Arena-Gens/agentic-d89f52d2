@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(148, 163, 184, 0.15), transparent 55%),
+    radial-gradient(circle at bottom, rgba(56, 189, 248, 0.12), rgba(15, 23, 42, 0.96) 60%);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
